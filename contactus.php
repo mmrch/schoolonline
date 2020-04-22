@@ -11,7 +11,7 @@ if(isset($_POST['submit'])){
 	$mail->SMTPAuth=true;
 	$mail->SMTPSecure='ssl';
 	$mail->Username='mmrchpreet@gmail.com';
-	$mail->Password='mmrch1822';
+	$mail->Password='#######';
 	$mail->setfrom($_POST['email']);
 	$mail->AddAddress('mmrchmanya@gmail.com');
 	$mail->AddReplyTo($_POST['email']);
